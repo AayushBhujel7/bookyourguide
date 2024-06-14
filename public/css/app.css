@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../fonts/JosefinSans-Regular.eot');
+  src: local('☺'), url('../fonts/JosefinSans-Regular.woff') format('woff'), url('../fonts/JosefinSans-Regular.ttf') format('truetype'), url('../fonts/JosefinSans-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/Georgia.eot');
+  src: local('☺'), url('../fonts/Georgia.woff') format('woff'), url('../fonts/Georgia.ttf') format('truetype'), url('../fonts/Georgia.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+ul li {
+  list-style: none;
+}
+.padding-10 {
+  padding: 10px;
+}
+
+
+/*=========================
+      Header Section
+============================*/
+.home-slider img {
+  width: 100%;
+}
+.logo-section img {
+  height: 150px;
+}
+.top-header-flex-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-header-flex-section h4 {
+  font-family: Georgia, sans-serif;
+  font-size: 31px;
+  font-style: italic;
+  line-height: 50px;
+  color: #32c6f4;
+}
+.top-header-flex-section h5 {
+  font-family: Georgia, sans-serif;
+  font-size: 23px;
+}
+.login-section {
+  float: right;
+}
+.login-section a {
+  text-decoration: none;
+  padding: 15px 25px;
+  margin: 0 5px;
+  font-size: 16px;
+  display: inline-block;
+  background: #f3f3f3;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 10px;
+  font-family: JosefinSans, sans-serif;
+  transition: 0.5s all;
+}
+.login-section a:hover {
+  background: #c5c1c1;
+  color: #000000;
+  border: 2px solid #337ab7;
+}
+.navigation-section {
+  height: 25px;
+  background-color: #055a97;
+  margin-top: 20px;
+}
+
+.banner-content-section {
+  background-color: #ebebeb;
+  padding: 50px 0;
+}
+.banner-content-section p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Georgia, sans-serif;
+  line-height: 30px;
+  margin: 20px 0 0;
+}
+.banner-content-section p:first-child {
+  margin: 0;
+}
+section.our-team {
+  background: #322f34;
+  padding: 60px 0;
+}
+section.our-team h4, section.our-team p {
+  color: #ffffff;
+  font-family: JosefinSans, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+section.our-team p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+}
+a.our-team-btn, .footer-form button.submit-now {
+  margin-top: 30px;
+  color: #000;
+  font-family: JosefinSans, sans-serif;
+  box-shadow: 0 3px 18px rgba(0,0,0,.25);
+  background-color: #b28b3e;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 15px 25px 10px;
+  font-size: 24px;
+  display: inline-block;
+  transition: .4s all;
+}
+.our-team a:hover, .footer-form button.submit-now {
+  text-decoration: none;
+  background: #dcb811;
+}
+.footer-form button.submit-now {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 0;
+}
+/*==========================
+      team-menber
+============================*/
+.team-member-img {
+  text-align: center;
+}
+.team-member-img img {
+  height: 180px;
+  width: auto;
+}
+/*------Contact Form-------------*/
+.address h4, .footer-links h4, .footer-form h4 {
+  color: #fff;
+  font-size: 24px;
+  font-family: JosefinSans, sans-serif;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.address a, .footer-links a, .footer-links p {
+  color: #dcb811;
+  font-family: JosefinSans, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form-control {
+  border-radius: 1px;
+  background-color: transparent;
+  color: #fff;
+  font-family: JosefinSans,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+/*--------------------------------
+  Footer-section
+  -------------------------------*/
+  footer {
+    background-color: #363338;
+    padding: 50px 0;
+}
+.copyriht-section {
+  background: #000000;
+  color: #fff;
+  padding: 25px 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: JosefinSans, sans-serif;
+}
+
+/*======================================
+      Login Dashboard
+=======================================*/
+.login-dashboard {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: #f3f3f3;
+    padding: 40px;
+    border: 2px solid #b7b2b2;
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.login-dashboard p {
+    color: #3a1585;
+    font-family: "Georgia", sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 45px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.login-form-section label {
+    font-size: 22px;
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+}
+.login-form-section input[type="email"], .login-form-section input[type="password"], .login-form-section input[type="text"] {
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    border: 2px solid #636363;
+}
+.login-submit-section {
+    margin-top: 25px;
+}
+.login-submit-section button {
+    border: 2px solid #23b719;
+    box-shadow: 5px 9px 12px rgba(38, 105, 149, 0.32);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(-243deg, rgba(199, 225, 255, 0) 0%, rgba(114, 214, 255, 0.25) 100%);
+    color: #000000;
+    font-size: 18px;
+    font-family: JosefinSans, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 68px;
+    cursor: pointer;
+}
+.card-header {
+    font-size: 24px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #2192b9;
+    margin-bottom: 25px;
+    color: #34b714;
+    font-weight: 700;
+}

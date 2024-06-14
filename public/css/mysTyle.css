@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'LincolnProximaNova';
+  src: url('fonts/LincolnProximaNova.eot');
+  src: local('☺'), url('fonts/LincolnProximaNova.woff') format('woff'), url('fonts/LincolnProximaNova.ttf') format('truetype'), url('fonts/LincolnProximaNova.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.form-group {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+ul li {
+  list-style: none;
+}
+.padding-10 {
+  padding: 10px;
+}
+
+/*======================================
+      Login Dashboard
+=======================================*/
+.login-dashboard {
+    margin: 20px auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.login-dashboard p {
+    color: #3a1585;
+    font-family: "Georgia", sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 45px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.login-form-section label {
+    font-size: 22px;
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+}
+.login-form-section input[type="email"], .login-form-section input[type="password"], .login-form-section input[type="text"] {
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    border: 2px solid #636363;
+}
+.login-submit-section {
+    margin-top: 25px;
+}
+.login-submit-section button {
+    border: 2px solid #23b719;
+    box-shadow: 5px 9px 12px rgba(38, 105, 149, 0.32);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(-243deg, rgba(199, 225, 255, 0) 0%, rgba(114, 214, 255, 0.25) 100%);
+    color: #000000;
+    font-size: 18px;
+    font-family: JosefinSans, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 68px;
+    cursor: pointer;
+}
+.card-header {
+    font-size: 24px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #2192b9;
+    margin-bottom: 25px;
+    color: #34b714;
+    font-weight: 700;
+}
+
+/*-----Details Page--------*/
+.profile-list {
+  background: #f8f9fa;
+  padding: 70px 0;
+} 
+.profileName h4 {
+  font-family: "LincolnProximaNova", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+.detail-content {
+  padding-left: 15px;
+}
+.detail-list .row {
+  display: flex;
+  align-items: center;
+}
+.detail-content p {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "LincolnProximaNova", sans-serif;
+} 
+.detail-content p strong {
+  padding-right: 5px;
+}
+.detail-image img {
+  width: 100%;
+}
+.detail-content button {
+  padding: 12px 50px;
+  background: #000;
+  color:#ffffff;
+  display: inline-block;
+  font-family: "LincolnProximaNova", sans-serif;
+  margin-top: 35px;
+  font-size: 23px;
+  border-radius: 10px;
+}
+.detail-content a:hover, .detail-content a:focus {
+  text-decoration: none;
+  color: #fed136;
+}
+.full-detail-section {
+  padding-top: 50px;
+}
+.full-detail-section p {
+  font-size: 18px;
+  font-family: "LincolnProximaNova", sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.full-detail-section p strong {
+  display: block;
+}
+
+/*------User List--------*/
+.tour-list {
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
